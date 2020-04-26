@@ -223,7 +223,7 @@ Board rules(Board _board, unsigned int _dice1, unsigned int _dice2)
     _board=throwOut(_board,1); // K
   }
 
-  if((_dice1==2 && _dice2==3) || (_dice1==3 && _dice2==2))
+  if((_dice1==2 && _dice2==5) || (_dice1==5 && _dice2==2))
   {
     printf(ANSI_COLOR_CYAN "Single : " ANSI_COLOR_RESET);
     _board=advance(_board,1); // Single
