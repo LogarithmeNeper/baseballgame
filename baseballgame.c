@@ -71,7 +71,8 @@ int main()
       sleep(1);
     }
     printBoard(scoreboard);
-
+    
+    sleep(3);
     scoreboard=switchHalfInning(scoreboard);
   }
 
