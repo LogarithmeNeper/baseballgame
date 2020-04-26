@@ -1,3 +1,12 @@
+/*************************************************************************
+Baseball game
+-------------------
+begin                : 26 April 2020
+copyright            : (C) 2019 by Pierre Sibut-Bourde
+e-mail               : pierre.sibut-bourde@insa-lyon.fr, pierre.sibut.bourde@gmail.com
+*************************************************************************/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -71,7 +80,7 @@ int main()
       sleep(1);
     }
     printBoard(scoreboard);
-    
+
     sleep(3);
     scoreboard=switchHalfInning(scoreboard);
   }
